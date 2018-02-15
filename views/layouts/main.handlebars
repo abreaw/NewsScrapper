@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />
+		<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+		<script src="https://code.jquery.com/jquery.js"></script>
+
+    	{{!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> --}}
+		<script src="/assets/js/jobs.js"></script>
+		<title>Job Tracker</title>
+	</head>
+	<body>
+
+		<section class="hero is-info is-bold">
+    		<div class="hero-body">
+				<div class="container">
+					{{!-- setup header view here --}}
+					<p>
+						<h1 class="title">Job Tracker</h1>
+						<h3 class="subtitle">Keep track of your job search journey</h3>
+					</p>
+				</div>
+			</div>
+			<div class="hero-footer">
+				<div class="container">
+					<a class="button is-info is-inverted" href="/api/savedjobs">View Saved Jobs</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="container">
+				{{!-- button to grab jobs --}}
+				{{!-- <a class="btn btn-default" href="/scrape">Get Jobs</a> --}}
+				{{!-- <button type="GET" class="" id="get-jobs">Get Jobs</button> --}}
+
+				{{{ body }}}
+			</div>
+		</section>
+
+		<footer class="footer is-info">
+			<div class="container">
+				<div class="content has-text-centered">
+					<p>
+						<strong>Job Tracker</strong> by <a href="https://github.com/abreaw">Brea Torres</a>.
+					</p>
+				</div>
+			</div>
+		</footer>
+
+
+	</body>
+</html>

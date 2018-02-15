@@ -1,0 +1,68 @@
+.job-company {
+    margin-left: 10px;
+    padding-left: 10px;
+    /* color: aqua; */
+}
+
+.job-summary {
+    margin: 10px 0px;
+}
+
+.name-label {
+    margin-right: 10px;
+}
+
+.notes-view {
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.note-date {
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.note-name {
+    color: rgb(61, 144, 199);
+}
+
+.show-comments {
+    margin: 10px 0px;
+
+}
+
+.notes-listing {
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.carat-icon {
+    margin-left: 10px;
+}
+
+.less-padding {
+
+    margin-top: 5px;
+    padding-top: 5px;
+
+}
+
+.level {
+    padding: 5px 20px;
+}
+
+.level:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.level.less-padding:nth-child(odd) {
+    background-color: rgb(245, 240, 240);
+}
+
+.hero-footer {
+    /* margin-bottom: 80px; */
+    padding-bottom: 40px;
+}
+

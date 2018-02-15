@@ -1,0 +1,48 @@
+  <div class="container">
+    <p class="subtitle">Here are some of the jobs available today</p>
+
+    <p>Jobs listed are from 
+    {{#each sites}}
+    <br>
+    <a class="button is-info" href={{this.home}} alt={{this.name}}>{{this.name}}</a>
+    {{/each}}
+    </p>
+  </div>
+
+<!-- Pass in data from server.js -->
+<section class="section">
+
+ <div class="container">
+   <div class="tile is-ancestor">
+  
+<ul>
+  {{#each jobs}}
+  	<div class="tile">
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          
+      
+    <li>
+  	  <p><span class="label">Title: <a class="job-title" target="_blank" href={{this.link}} alt={{this.title}}>{{this.title}}</a></span></p>
+      <p><span class="job-location has-text-grey">
+        {{this.location}} 
+        </span>
+        <a class="job-company" target="_blank" href={{this.companyLink}} alt={{this.company}}>
+           {{this.company}}
+           </a>
+           <span class="date"> {{this.createDate}} </span></p>
+      {{!-- <p><a class="job-company" target="_blank" href={{this.companyLink}} alt={{this.company}}>{{this.company}}</a><span class="date">{{this.createDate}}</span></p> --}}
+      <p class="job-summary"><span class="label">Details:</span> {{this.summary}}</p>
+
+      <button data-title={{this.title}} class="save-job button is-info">Keep</button>
+
+  	</li>
+      </article>
+      </div>
+    </div>
+  {{/each}}
+</ul>
+</div>
+</div>
+
+</section>

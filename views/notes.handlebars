@@ -1,0 +1,22 @@
+
+<p>Input and add a note to the current Job below.</p>
+
+<ul>
+  	<li>
+  	  <p><span class="label">Title:</span> <a class="job-title" target="_blank" href={{this.link}} alt={{this.title}}>{{this.title}}</a></p>
+      <p><a class="job-company" target="_blank" href={{this.companyLink}} alt={{this.company}}>{{this.company}}</a><span class="date">{{this.createDate}}</span></p>
+      <p><span class="job-location">{{this.location}}</span></p>
+      <p class="job-summary"><span class="label">Details:</span> {{this.summary}}</p>
+
+  	</li>
+</ul>
+
+<form action="/api/addnote" id="add-job-note" data-id={{this.id}}>
+
+    <input type="textarea" name="note" placeholder="Add your note here" autofocus>
+    <input type="text" name="name" placeholder="John Smith">
+    
+    <br>
+    <input type="submit" value="Add Note">
+
+</form>
