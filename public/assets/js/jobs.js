@@ -188,7 +188,7 @@ function grabJobDetails(button) {
 
     var title = htmlJobDetails.children().children(".job-title").text();
     var link = htmlJobDetails.children().children(".job-title").attr("href");
-    var summary = button.siblings(".job-summary").text();
+    var summary = button.siblings().children(".job-summary").text();
     var company = htmlJobDetails.children(".job-company").text();
     var companyLink = htmlJobDetails.children(".job-company").attr("href");
     var location = htmlJobDetails.children(".job-location").text();

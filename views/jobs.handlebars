@@ -32,7 +32,8 @@
            </a>
            <span class="date"> {{this.createDate}} </span></p>
       {{!-- <p><a class="job-company" target="_blank" href={{this.companyLink}} alt={{this.company}}>{{this.company}}</a><span class="date">{{this.createDate}}</span></p> --}}
-      <p class="job-summary"><span class="label">Details:</span> {{this.summary}}</p>
+      {{!-- <p class="job-summary"><span class="label">Details:</span> {{this.summary}}</p> --}}
+      <p><span class="label">Details:</span><span class="job-summary">{{this.summary}}</span></p>
 
       <button data-title={{this.title}} class="save-job button is-info">Keep</button>
 
