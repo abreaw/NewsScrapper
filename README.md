@@ -18,7 +18,7 @@ Add a Note to a Job
 See Comments / Notes
 ![Notes - Comments View](https://github.com/abreaw/NewsScrapper/blob/master/docs/images/ShowCommentsView.JPG)
 
-## Tech/framework used
+## Tech/frameworks used
 <b>Built with</b>
 - [Node.js](https://nodejs.org/)
 - [Express.js](https://expressjs.com/)
@@ -27,6 +27,7 @@ See Comments / Notes
 - [Mongojs](https://www.npmjs.com/package/mongojs)
 - [Mongoose](http://mongoosejs.com/)
 - [Cheerio](https://cheerio.js.org/)
+- [Bulma](https://bulma.io/)
 
 ## Features
 Allows a user to enter search keyword and a location.  The application then goes and grabs the current data from Indeed.com and displays it back to the user.  The user is then able to make notes on any saved jobs in the database.
