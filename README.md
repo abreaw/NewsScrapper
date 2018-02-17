@@ -4,19 +4,19 @@ Web App that allows users to view and leave comments about jobs from a keyword a
 ## Screenshots
 
 Home Page / Default Route
-![Home Page / Default Route](https://github.com/abreaw/burger/blob/master/docs/images/Index-SearchScreen.JPG)
+![Home Page / Default Route](https://github.com/abreaw/NewsScrapper/blob/master/docs/images/AddNoteView.JPG)
 
 Search Jobs Page
-![Search Jobs Page](https://github.com/abreaw/burger/blob/master/docs/images/SearchedJobsView-IndeedSiteResults.JPG)
+![Search Jobs Page](https://github.com/abreaw/NewsScrapper/blob/master/docs/images/SearchedJobsView-IndeedSiteResults.JPG)
 
 Saved Jobs Page
-![Saved Jobs Page](https://github.com/abreaw/burger/blob/master/docs/images/SearchedJobsView-IndeedSiteResults.JPG)
+![Saved Jobs Page](https://github.com/abreaw/NewsScrapper/blob/master/docs/images/SearchedJobsView-IndeedSiteResults.JPG)
 
 Add a Note to a Job
-![Add a Note View](https://github.com/abreaw/burger/blob/master/docs/images/AddNoteView.JPG)
+![Add a Note View](https://github.com/abreaw/NewsScrapper/blob/master/docs/images/AddNoteView.JPG)
 
 See Comments / Notes
-![Notes - Comments View](https://github.com/abreaw/burger/blob/master/docs/images/ShowCommentsView.JPG)
+![Notes - Comments View](https://github.com/abreaw/NewsScrapper/blob/master/docs/images/ShowCommentsView.JPG)
 
 ## Tech/framework used
 <b>Built with</b>
