@@ -24,9 +24,9 @@ app.set("view engine", "handlebars");
 
 // By default mongoose uses callbacks for async queries, we're setting it to use promises (.then syntax) instead
 // Connect to the Mongo DB
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/jobscraper";
 mongoose.Promise = Promise;
-mongoose.connect("mongodb://localhost/jobscraper");
-
+mongoose.connect(MONGODB_URI);
 
 // Routes
 require("./routes/api-routes.js")(app);

@@ -62,5 +62,6 @@ The NewsScrapper app can be used to search for jobs with keyword and location in
 1. The user can also delete any of the jobs that are shown on the page by clicking the **"Delete"** button that corresponds to the job they would no longer like to see.  This will delete the job details from the database as well as all the notes associated with the job.
 
 You can also access this app hosted on Heroku 
+[https://quiet-badlands-57786.herokuapp.com/](https://quiet-badlands-57786.herokuapp.com/)
 
 
