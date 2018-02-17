@@ -24,7 +24,7 @@ See Comments / Notes
 - [Express.js](https://expressjs.com/)
 - [Handlebars](http://handlebarsjs.com/)
 - [MongoDB](https://www.mongodb.com/)
-- [Mongojs] (https://www.npmjs.com/package/mongojs)
+- [Mongojs](https://www.npmjs.com/package/mongojs)
 - [Mongoose](http://mongoosejs.com/)
 - [Cheerio](https://cheerio.js.org/)
 
